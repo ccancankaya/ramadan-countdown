@@ -10,6 +10,8 @@ import sunny from './img/sunny.jpg'
 import thunder from './img/thunder.jpg'
 import broken from './img/broken.jpg'
 import sunset from './img/sunset.jpg'
+import lightrain from './img/lightrain.jpg'
+
 
 
 
@@ -83,6 +85,10 @@ function App() {
       if(res.data.weather[0].description==='parçalı bulutlu'){
         setWetPic(broken)
            setClassa('brokenCloud')
+      }
+      if(res.data.weather[0].description==='kısa süreli hafif yoğunluklu yağmur'){
+        setWetPic(lightrain)
+          //  setClassa('brokenCloud')
       }
       
     })
