@@ -125,7 +125,7 @@ function App() {
               <h3 className="card-text">Sıcaklık : {temp} °C</h3>
               <h3 className="card-text">Durum : {desc} </h3>
               <h3 className="card-text">Nem : {'%'+hum} </h3>
-              <p className="card-text" style={{marginTop:'55%'}}>Son güncelleme : 1 saat önce</p>
+              <p className="card-text" style={{marginTop:'52%'}}>Son güncelleme : 1 saat önce</p>
             </div>
           </div>
         </div>
