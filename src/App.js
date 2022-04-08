@@ -11,6 +11,8 @@ import thunder from './img/thunder.jpg'
 import broken from './img/broken.jpg'
 import sunset from './img/sunset.jpg'
 import lightrain from './img/lightrain.jpg'
+import litcloud from './img/litcloud.jpg'
+
 
 
 
@@ -88,6 +90,10 @@ function App() {
       }
       if(res.data.weather[0].description==='kısa süreli hafif yoğunluklu yağmur'){
         setWetPic(lightrain)
+          //  setClassa('brokenCloud')
+      }
+      if(res.data.weather[0].description==='az bulutlu'){
+        setWetPic(litcloud)
           //  setClassa('brokenCloud')
       }
       
